@@ -11,7 +11,7 @@ export default function Projects() {
         </p>
         <div className="mt-4">
           <a
-            href="https://arsenal-website-theta.vercel.app/"
+            href="https://arsenal-website-theta.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
@@ -30,7 +30,7 @@ export default function Projects() {
       </div>
 
       {/* Netflix Clone Project */}
-      <div className="border p-4 rounded-lg shadow-lg">
+      <div className="border p-4 rounded-lg shadow-lg mb-6">
         <h2 className="text-xl font-semibold">Netflix Clone</h2>
         <p className="text-gray-600">
           A Netflix-inspired streaming platform built with React, Firebase,
@@ -38,7 +38,7 @@ export default function Projects() {
         </p>
         <div className="mt-4">
           <a
-            href="https://netflix-clone-brian-mcloughlins-projects.vercel.app/"
+            href="https://netflix-clone-iota-olive.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
@@ -46,7 +46,33 @@ export default function Projects() {
             Live Demo
           </a>
           <a
-            href="https://github.com/YOUR_GITHUB_USERNAME/netflix-clone"
+            href="https://github.com/BMacCodex/netflix-clone"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
+          >
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
+      {/* Restaurant Phone App Skeleton */}
+      <div className="border p-4 rounded-lg shadow-lg">
+        <h2 className="text-xl font-semibold">Restaurant Phone App Skeleton</h2>
+        <p className="text-gray-600">
+          A mobile-friendly app prototype for restaurant order management.
+        </p>
+        <div className="mt-4">
+          <a
+            href="https://restaurant-loyalty-app.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/BMacCodex/restaurant-loyalty-app"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
