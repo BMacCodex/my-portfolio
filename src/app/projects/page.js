@@ -38,7 +38,7 @@ export default function Projects() {
         </p>
         <div className="mt-4">
           <a
-            href="https://YOUR_NETFLIX_CLONE_LIVE_DEMO_LINK"
+            href="https://netflix-clone-brian-mcloughlins-projects.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-500 text-white px-4 py-2 rounded-md hover:bg-red-600"
