@@ -57,7 +57,7 @@ export default function Projects() {
       </div>
 
       {/* Restaurant Phone App Skeleton */}
-      <div className="border p-4 rounded-lg shadow-lg">
+      <div className="border p-4 rounded-lg shadow-lg mb-6">
         <h2 className="text-xl font-semibold">Restaurant Phone App Skeleton</h2>
         <p className="text-gray-600">
           A mobile-friendly app prototype for restaurant order management.
@@ -73,6 +73,33 @@ export default function Projects() {
           </a>
           <a
             href="https://github.com/BMacCodex/restaurant-loyalty-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
+          >
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
+      {/* Practising Basic Components */}
+      <div className="border p-4 rounded-lg shadow-lg">
+        <h2 className="text-xl font-semibold">Practising Basic Components</h2>
+        <p className="text-gray-600">
+          A small project where I build a table, a modal, custom buttons, an
+          accordion, and a dropdown menu.
+        </p>
+        <div className="mt-4">
+          <a
+            href="https://comps-phi-eight.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-purple-500 text-white px-4 py-2 rounded-md hover:bg-purple-600"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/BMacCodex/comps"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
