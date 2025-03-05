@@ -1,10 +1,10 @@
-export default function Projects() {
+function Projects() {
   return (
     <div className="max-w-4xl mx-auto p-8">
       <h1 className="text-3xl font-bold mb-6">My Projects</h1>
 
       {/* Arsenal Player Statistics Project */}
-      <div className="border p-4 rounded-lg shadow-lg mb-6">
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Arsenal Player Statistics</h2>
         <p className="text-gray-600">
           A web app that tracks Arsenal FC's player stats for the 24/25 season.
@@ -30,7 +30,7 @@ export default function Projects() {
       </div>
 
       {/* Netflix Clone Project */}
-      <div className="border p-4 rounded-lg shadow-lg mb-6">
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Netflix Clone</h2>
         <p className="text-gray-600">
           A Netflix-inspired streaming platform built with React, Firebase,
@@ -57,7 +57,7 @@ export default function Projects() {
       </div>
 
       {/* Restaurant Phone App Skeleton */}
-      <div className="border p-4 rounded-lg shadow-lg mb-6">
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Restaurant Phone App Skeleton</h2>
         <p className="text-gray-600">
           A mobile-friendly app prototype for restaurant order management.
@@ -83,7 +83,7 @@ export default function Projects() {
       </div>
 
       {/* Practising Basic Components */}
-      <div className="border p-4 rounded-lg shadow-lg">
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Practising Basic Components</h2>
         <p className="text-gray-600">
           A small project where I build a table, a modal, custom buttons, an
@@ -111,3 +111,5 @@ export default function Projects() {
     </div>
   );
 }
+
+export default Projects;
