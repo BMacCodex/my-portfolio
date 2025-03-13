@@ -29,6 +29,33 @@ function Projects() {
         </div>
       </div>
 
+      {/* Amazon Clone Project */}
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
+        <h2 className="text-xl font-semibold">Amazon Clone</h2>
+        <p className="text-gray-600">
+          A full-stack Amazon clone built with React, Next.js, Stripe Checkout,
+          Webhooks, Firestore, and Redux.
+        </p>
+        <div className="mt-4">
+          <a
+            href="https://amazon-clone-olive-pi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/BMacCodex/amazon-clone"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
+          >
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
       {/* Netflix Clone Project */}
       <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Netflix Clone</h2>
