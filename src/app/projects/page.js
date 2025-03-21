@@ -83,26 +83,26 @@ function Projects() {
         </div>
       </div>
 
-      {/* Restaurant Phone App Skeleton */}
+      {/* Guess My Number Game */}
       <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
-        <h2 className="text-xl font-semibold">Restaurant Phone App Skeleton</h2>
-        <p className="text-gray-600">
-          A mobile-friendly app prototype for restaurant order management.
+        <h3 className="text-xl font-semibold mb-2">Guess My Number Game</h3>
+        <p className="text-gray-700 mb-4">
+          A simple number guessing game built with JavaScript.
         </p>
-        <div className="mt-4">
+        <div className="flex space-x-4">
           <a
-            href="https://restaurant-loyalty-app.vercel.app/"
+            href="https://guess-my-number-phi-one.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600"
+            className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-700 transition duration-300"
           >
             Live Demo
           </a>
           <a
-            href="https://github.com/BMacCodex/restaurant-loyalty-app"
+            href="https://github.com/BMacCodex/guess-my-number"
             target="_blank"
             rel="noopener noreferrer"
-            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
+            className="border bg-gray-800 text-white px-4 py-2 rounded-md  hover:bg-gray-900 hover:text-white transition duration-300"
           >
             GitHub Repo
           </a>
