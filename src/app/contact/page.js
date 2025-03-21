@@ -6,7 +6,13 @@ const Contact = () => {
       <h1 className="text-4xl font-bold text-center mb-8">Contact Me</h1>
       <h2 className="text-lg text-center text-gray-700 mb-8">
         I’d love to hear from you! Whether it's a project idea or just to say
-        hi, feel free to reach out.
+        hi, feel free to reach out. I'll get back to you as soon as I can 🚀
+        <br />
+        <br />
+        You can also contact me by phone at{" "}
+        <span className="bg-yellow-300 px-2 py-1 rounded-md font-semibold text-black">
+          416-854-0913
+        </span>
       </h2>
 
       {/* Social Links */}
