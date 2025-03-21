@@ -8,7 +8,7 @@ export default function Navbar() {
         {/* Replace "My Portfolio" with GitHub and LinkedIn icons */}
         <div className="flex space-x-4">
           <a
-            href="https://github.com/your-github-username" // Replace with your GitHub profile URL
+            href="https://github.com/BMacCodex/my-portfolio" // Replace with your GitHub profile URL
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-300 transition-colors"
@@ -16,7 +16,7 @@ export default function Navbar() {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/your-linkedin-username" // Replace with your LinkedIn profile URL
+            href="https://www.linkedin.com/in/brian-mcloughlin-85380673/" // Replace with your LinkedIn profile URL
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-300 transition-colors"

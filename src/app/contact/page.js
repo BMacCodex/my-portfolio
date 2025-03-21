@@ -4,11 +4,15 @@ const Contact = () => {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-6 py-12">
       <h1 className="text-4xl font-bold text-center mb-8">Contact Me</h1>
+      <h2 className="text-lg text-center text-gray-700 mb-8">
+        I’d love to hear from you! Whether it's a project idea or just to say
+        hi, feel free to reach out.
+      </h2>
 
       {/* Social Links */}
       <div className="flex space-x-6 mb-8">
         <a
-          href="https://github.com/your-github-username"
+          href="https://github.com/BMacCodex/my-portfolio"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-black transition duration-300 text-3xl"
@@ -16,7 +20,7 @@ const Contact = () => {
           <FaGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/your-linkedin-username"
+          href="https://www.linkedin.com/in/brian-mcloughlin-85380673/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-600 hover:text-blue-800 transition duration-300 text-3xl"
@@ -28,7 +32,7 @@ const Contact = () => {
       {/* Contact Form */}
       <div className="w-full max-w-lg bg-white p-6 rounded-lg shadow-lg">
         <form
-          action="https://formspree.io/f/YOUR_FORM_ID" // Replace with your Formspree endpoint
+          action="https://formspree.io/f/mblggdgd" // Replace with your Formspree endpoint
           method="POST"
           className="flex flex-col space-y-4"
         >

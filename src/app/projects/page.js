@@ -3,6 +3,33 @@ function Projects() {
     <div className="max-w-4xl mx-auto p-8">
       <h1 className="text-3xl font-bold mb-6">My Projects</h1>
 
+      {/* Amazon Clone Project */}
+      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
+        <h2 className="text-xl font-semibold">Amazon Clone</h2>
+        <p className="text-gray-600">
+          A frontend Amazon clone built with React, Next.js and Redux and with
+          google sign in and sign out functionality.
+        </p>
+        <div className="mt-4">
+          <a
+            href="https://amazon-clone-olive-pi.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600"
+          >
+            Live Demo
+          </a>
+          <a
+            href="https://github.com/BMacCodex/amazon-clone"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
+          >
+            GitHub Repo
+          </a>
+        </div>
+      </div>
+
       {/* Arsenal Player Statistics Project */}
       <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Arsenal Player Statistics</h2>
@@ -29,39 +56,12 @@ function Projects() {
         </div>
       </div>
 
-      {/* Amazon Clone Project */}
-      <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
-        <h2 className="text-xl font-semibold">Amazon Clone</h2>
-        <p className="text-gray-600">
-          A full-stack Amazon clone built with React, Next.js, Stripe Checkout,
-          Webhooks, Firestore, and Redux.
-        </p>
-        <div className="mt-4">
-          <a
-            href="https://amazon-clone-olive-pi.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600"
-          >
-            Live Demo
-          </a>
-          <a
-            href="https://github.com/BMacCodex/amazon-clone"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="ml-4 bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-900"
-          >
-            GitHub Repo
-          </a>
-        </div>
-      </div>
-
       {/* Netflix Clone Project */}
       <div className="border p-4 rounded-lg shadow-lg mb-6 transition-transform transform hover:scale-105">
         <h2 className="text-xl font-semibold">Netflix Clone</h2>
         <p className="text-gray-600">
-          A Netflix-inspired streaming platform built with React, Firebase,
-          Stripe, and Redux.
+          A Netflix-inspired streaming platform built with React, Firebase and
+          Redux.
         </p>
         <div className="mt-4">
           <a
