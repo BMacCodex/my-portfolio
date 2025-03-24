@@ -18,7 +18,7 @@ const Contact = () => {
       {/* Social Links */}
       <div className="flex space-x-6 mb-8">
         <a
-          href="https://github.com/BMacCodex/my-portfolio"
+          href="https://github.com/BMacCodex"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-700 hover:text-black transition duration-300 text-3xl"
