@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 const Home = () => {
-  const text = "I'm Brian Mcloughlin, welcome to my portfolio.";
+  const text = "Hello, I'm Brian Mcloughlin, welcome to my portfolio.";
   const [displayText, setDisplayText] = useState("");
   const [index, setIndex] = useState(0);
 
