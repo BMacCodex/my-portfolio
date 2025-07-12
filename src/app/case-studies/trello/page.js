@@ -138,7 +138,7 @@ export default function CarManagementCaseStudy() {
         timelines, I was able to demonstrate how I approach organization,
         communication, and problem-solving — even without a live team. I'm
         excited to bring this same energy and structure to a product
-        coordination or customer success role.
+        coordination/owner or customer success role.
       </p>
     </main>
   );
