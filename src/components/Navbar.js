@@ -39,6 +39,9 @@ export default function Navbar() {
           <Link href="/contact" className="hover:underline">
             Contact
           </Link>
+          <Link href="/case-studies" className="hover:underline">
+            Case Studies
+          </Link>
         </div>
       </div>
     </nav>
